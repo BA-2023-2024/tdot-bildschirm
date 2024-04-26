@@ -10,6 +10,8 @@ import Empfang from "@/components/Empfang";
 import Birthdays from "@/components/Birthdays";
 import Menuplan from "@/components/Menuplan";
 import Etagenuebersicht from "@/components/Etagenuebersicht";
+import DanamemePost from "./DanamemePost";
+import DanamemeJoin from "./DanamemeJoin";
 
 export default function GlobalHandler({ data }) {
   const [animation, setAnimation] = useState(null);
@@ -30,18 +32,18 @@ export default function GlobalHandler({ data }) {
               <h1 className="text-[2.2rem] font-bold text-primary">
                 Willkommen im ICT-Campus
               </h1>
-              <Time />
+              <Birthdays data={data} />
               <Etagenuebersicht />
-              <Empfang />
             </div>
             <div>
+              <Time />
               <PersonSwitcher data={data} />
               <AirTemperature />
               <AareTemperature />
             </div>
             <div>
-              <Birthdays data={data} />
-              <Menuplan />
+              <DanamemePost />
+              <DanamemeJoin />
             </div>
           </div>
         </div>

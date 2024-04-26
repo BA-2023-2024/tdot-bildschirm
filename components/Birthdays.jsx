@@ -75,7 +75,7 @@ export default function Birthdays({ data }) {
   }
 
   return (
-    <div className="card">
+    <div className="card mt-5">
       <div className="flex flex-row justify-start items-center w-[calc(100%-84px)]">
         <FontAwesomeIcon
           className="text-primary text-6xl ms-8"
