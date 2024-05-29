@@ -69,7 +69,7 @@ export default function Birthdays({ data }) {
     }
 
     // Only show the next 5 birthdays
-    futureBirthdays = futureBirthdays.slice(0, 3);
+    futureBirthdays = futureBirthdays.slice(0, 4);
 
     return futureBirthdays;
   }
