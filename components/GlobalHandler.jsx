@@ -6,9 +6,7 @@ import PersonSwitcher from "@/components/PersonSwitcher";
 import Time from "@/components/Time";
 import AnimationContext from "@/components/animation/AnimationContext";
 import { useState } from "react";
-import Empfang from "@/components/Empfang";
 import Birthdays from "@/components/Birthdays";
-import Menuplan from "@/components/Menuplan";
 import Etagenuebersicht from "@/components/Etagenuebersicht";
 import DanamemePost from "./DanamemePost";
 import DanamemeJoin from "./DanamemeJoin";
@@ -29,9 +27,10 @@ export default function GlobalHandler({ data }) {
             }
           >
             <div>
-              <h1 className="text-[2.2rem] font-bold text-primary">
-                Willkommen im ICT-Campus
+              <h1 className="text-[3rem] font-semibold text-primary leading-10 mt-2">
+                Willkommen im
               </h1>
+              <h1 className="text-[5.4rem] font-bold text-text">ICT-Campus</h1>
               <Birthdays data={data} />
               <Etagenuebersicht />
             </div>

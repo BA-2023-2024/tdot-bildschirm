@@ -69,7 +69,7 @@ export default function Birthdays({ data }) {
     }
 
     // Only show the next 5 birthdays
-    futureBirthdays = futureBirthdays.slice(0, 5);
+    futureBirthdays = futureBirthdays.slice(0, 3);
 
     return futureBirthdays;
   }
@@ -81,10 +81,11 @@ export default function Birthdays({ data }) {
           className="text-primary text-6xl ms-8"
           icon={faCalendarDays}
         />{" "}
-        <h1 className="title pt-1.5 mx-auto">Kalender</h1>
+        <div className="mx-auto">
+          <h1 className="title text-center pt-1.5 mx-auto">Kalender</h1>
+          <h1 className="title text-center w-full text-xl">{currentDate}</h1>
+        </div>
       </div>
-      <hr className="divider" />
-      <h1 className="title text-center w-full text-2xl">{currentDate}</h1>
       <hr className="divider" />
       <div className="w-full flex flex-col justify-center items-center text-center">
         {todayBirthday.length > 0 ? (
