@@ -10,6 +10,7 @@ import Birthdays from "@/components/Birthdays";
 import Etagenuebersicht from "@/components/Etagenuebersicht";
 import DanamemePost from "./DanamemePost";
 import DanamemeJoin from "./DanamemeJoin";
+import LinesGithub from "./LinesGithub";
 
 export default function GlobalHandler({ data }) {
   const [animation, setAnimation] = useState(null);
@@ -42,7 +43,7 @@ export default function GlobalHandler({ data }) {
             </div>
             <div>
               <DanamemePost />
-              <DanamemeJoin />
+              <LinesGithub />
             </div>
           </div>
         </div>

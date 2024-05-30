@@ -94,7 +94,7 @@ export default function DanamemePost() {
 
   return (
     post && (
-      <div className="card min-h-[775px] max-h-[775px]">
+      <div className="card min-h-[828px] max-h-[828px]">
         <div className="flex flex-row justify-start items-center w-full">
           <h1 className="title pt-1.5 mx-auto">Neuster DANAMEME Post</h1>
         </div>
@@ -132,7 +132,7 @@ export default function DanamemePost() {
             </div>
           )}
           {post.asset && (
-            <div className="max-h-[510px] w-auto mt-3">
+            <div className="max-h-[560px] max-w-full w-auto mt-3">
               <img
                 className="h-full w-auto rounded-xl"
                 src={post.asset}
