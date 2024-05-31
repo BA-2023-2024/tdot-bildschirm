@@ -73,7 +73,7 @@ main#page > div > div > div {
 .grid-container {
   display: grid;
   /* grid-template-columns: minmax(5.2rem, auto) auto; Adjust as needed */
-  gap: 1rem; /* Adjust as needed */
+  gap: 1.5rem; /* Adjust as needed */
 }
 
 .title {

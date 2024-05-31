@@ -11,6 +11,7 @@ import Etagenuebersicht from "@/components/Etagenuebersicht";
 import DanamemePost from "./DanamemePost";
 import DanamemeJoin from "./DanamemeJoin";
 import LinesGithub from "./LinesGithub";
+import PostenUebersicht from "./PostenUebersicht";
 
 export default function GlobalHandler({ data }) {
   const [animation, setAnimation] = useState(null);
@@ -32,8 +33,7 @@ export default function GlobalHandler({ data }) {
                 Willkommen im
               </h1>
               <h1 className="text-[5.4rem] font-bold text-text">ICT-Campus</h1>
-              <Birthdays data={data} />
-              <Etagenuebersicht />
+              <PostenUebersicht />
             </div>
             <div>
               <Time />
