@@ -17,10 +17,6 @@ export default function PostenUebersicht() {
       post: "Quizziz, Kahoot, Photobox, PC zerlegen",
     },
     {
-      room: "BA-Raum",
-      post: "Frontend, M5",
-    },
-    {
       room: "Labor",
       post: "FehlerVMs, Kabel erstellen, WireShark",
     },
