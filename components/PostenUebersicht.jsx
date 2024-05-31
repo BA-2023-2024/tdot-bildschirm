@@ -6,7 +6,7 @@ export default function PostenUebersicht() {
   const posten = [
     {
       room: "BA-Raum",
-      post: "Frontend, M5",
+      post: "Websites, JavaApps, Frontend, M5",
     },
     {
       room: "PiBS-Raum",
@@ -18,7 +18,7 @@ export default function PostenUebersicht() {
     },
     {
       room: "Labor",
-      post: "FehlerVMs, Kabel erstellen, WireShark",
+      post: "FehlerVMs, Kabel erstellen, WireShark/Security",
     },
     {
       room: "Bistro",
