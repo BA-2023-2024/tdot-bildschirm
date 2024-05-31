@@ -134,7 +134,7 @@ export default function DanamemePost() {
           {post.asset && (
             <div className="max-h-[560px] max-w-full w-auto mt-3">
               <img
-                className="h-full w-auto rounded-xl"
+                className="h-auto w-full rounded-xl"
                 src={post.asset}
                 alt={post.title ? post.title : "Post"}
               />
